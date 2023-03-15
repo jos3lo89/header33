@@ -22,7 +22,7 @@
 }
 
 *::selection {
-    background-color: var(--white);
+    background-color: var(--green);
     color: var(--black);
 }
 
@@ -55,7 +55,6 @@ section {
 
 /* header section start */
 .header {
-    /* height: 70px; */
     /* position: fixed; */
     position: sticky;
     top: 0;
@@ -161,29 +160,30 @@ section {
 }
 
 .courses .swiper-slide {
-    /* width: 30rem; */
     border-radius: .5rem;
     text-align: center;
     margin-bottom: 4rem;
     padding: 2rem;
-    /* background-color: bisque; */
-    
 }
 
 .courses .swiper-slide img {
-    height: 25rem;
+    height: 250px;
     width: 185px;
-    /* height: auto; */
 }
 
-.courses .swiper-slide h3 {
+@media (max-width: 768px) {
+    .courses .swiper-slide img {
+        width: 143px;
+        height: 204px;
+    }
+}
+
+.courses .swiper-slide a h3 {
     margin: 1.5rem 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--white);
 }
 
 .swiper-pagination-bullet {
     background-color: var(--green);
 }
-
-

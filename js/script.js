@@ -11,7 +11,7 @@ menuBtn.onclick = () => {
 // swiper js
 var swiper = new Swiper(".course-slider", {
     loop: true,
-    grabCursor: true,
+    // grabCursor: true,
     // spaceBetween: 20,
     // centeredSlides: true,
     // slidesPerView: 1,
@@ -23,13 +23,13 @@ var swiper = new Swiper(".course-slider", {
     },
     breakpoints: {
         550: {
-          slidesPerView: 1,
-        },
-        768: {
           slidesPerView: 2,
         },
-        1024: {
+        768: {
           slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 4,
         },
       },
       keyboard: {
