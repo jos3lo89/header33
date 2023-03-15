@@ -55,8 +55,6 @@ section {
 
 /* header section start */
 .header {
-    /* height: 70px; */
-    /* position: fixed; */
     position: sticky;
     top: 0;
     left: 0;
@@ -147,43 +145,3 @@ section {
 }
 
 /* header section end */
-
-
-.heading {
-    margin-bottom: 2.5rem;
-    text-align: center;
-    font-size: 4rem;
-    color: var(--white);
-}
-
-.heading span {
-    color: var(--green);
-}
-
-.courses .swiper-slide {
-    /* width: 30rem; */
-    border-radius: .5rem;
-    text-align: center;
-    margin-bottom: 4rem;
-    padding: 2rem;
-    /* background-color: bisque; */
-    
-}
-
-.courses .swiper-slide img {
-    height: 25rem;
-    width: 185px;
-    /* height: auto; */
-}
-
-.courses .swiper-slide h3 {
-    margin: 1.5rem 0;
-    font-size: 2rem;
-    color: var(--white);
-}
-
-.swiper-pagination-bullet {
-    background-color: var(--green);
-}
-
-
