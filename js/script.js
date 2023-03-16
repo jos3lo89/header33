@@ -42,4 +42,10 @@ var swiper = new Swiper(".course-slider", {
 	keyboard: {
 		enabled: true,
 	},
+
+	autoplay: {
+		delay: 5000, //auto-play cada 5 sec
+		pauseOnMouseEnter: true, //pasa maus y pausa slides
+		disableOnInteraction: false, //vuelva a lo mismo
+	},
 });
