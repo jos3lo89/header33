@@ -20,10 +20,9 @@ document.addEventListener("click", (event) => {
 var swiper = new Swiper(".course-slider", {
 	loop: true,
 	// grabCursor: true,
-	// spaceBetween: 20,
 	// centeredSlides: true,
 	// slidesPerView: 1,
-	spaceBetween: 10,
+	spaceBetween: 0,
 
 	pagination: {
 		el: ".swiper-pagination",
