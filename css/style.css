@@ -4,8 +4,8 @@
 	--green: #00e77f;
 	--white: #fff;
 	--light-white: #aaa;
-	--black: #3d3d3d;
-	--light-gb: #4b4b4b;
+	--black: #1a1b4b;
+	--light-gb: #292a73;
 }
 
 * {
@@ -209,7 +209,7 @@ section {
 	height: 3rem;
 	padding: 1rem;
 	border-radius: 0.7rem;
-	background-color: var(--light-white);
+	background-color: #3e4491;
 }
 
 .caja-buscador input::placeholder {
