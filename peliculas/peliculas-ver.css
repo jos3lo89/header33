@@ -4,8 +4,8 @@
 	--green: #00e77f;
 	--white: #fff;
 	--light-white: #aaa;
-	--black: #1a1b4b;
-	--light-gb: #292a73;
+	--black: #1B2430;
+	--light-gb: #16213E;
 }
 
 * {
@@ -62,6 +62,7 @@ section {
 	right: 0;
 	z-index: 999;
 	background-color: var(--light-gb);
+	box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.5);
 }
 
 .header .flex {
